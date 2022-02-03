@@ -140,6 +140,44 @@ i {
 }
 
 
+/**//* MISCELLANEOUS PAGES CSS *//**/
+/* Contact Form CSS */
+.rectangleContactFormContainer {
+    background-color: whitesmoke;
+    border: 2px solid;
+    /* box-shadow: 5px 10px; */
+    position: absolute;
+    margin-left: 13.5%;
+    margin-top: 10rem;
+    width: 73vw;
+    height: 38rem;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.form-group-Email {
+    /* display: flex;
+    align-items: center; */
+    background-color: lightblue;
+    height: 2.5rem;
+    margin-top: 1.5rem;
+    margin-left: 10rem;
+    padding: 24px;
+    width: 47vw;
+    /* color: black; */
+}
+.form-group-MultipleSelect {
+    background-color: #d0696969;
+    height: 4rem;
+    margin-top: .5rem;
+    margin-left: 10rem;
+    padding: 24px;
+    width: 47vw;
+}
+.form-control {
+    width: 36rem;
+}
+
 
 
 /* About Me page CSS */
