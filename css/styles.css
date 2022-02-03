@@ -13,6 +13,12 @@ img {
     object-fit: contain;
 }
 
+/* .nameLogo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+} */
+
+
 /* #logoName {
     background-image: url("../images/Nicholas-Love.svg");
     repeat: no-repeat;
@@ -90,6 +96,16 @@ i {
     height: 2rem;
     margin: 10px;
     padding: 15px;
+}
+
+.flexContainerIMP {
+    display: flex;
+    align-items: center;
+    /* background-color: lightblue; */
+    height: 2rem;
+    margin-top: 1.5rem;
+    padding: 15px;
+    color: black;
 }
 
 .hamburger {
