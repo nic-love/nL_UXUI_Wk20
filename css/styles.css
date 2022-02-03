@@ -414,17 +414,40 @@ button:hover {
 
 
 
-/* #galleryGridBP4VK {
+#galleryGridBP4VK {
     margin: 0px 5%;
     display: grid;
-    grid-template-rows: 300px 300px 300px;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 12vw 12vw 12vw 12vw;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas:
-    "bookcases bedroom patio"
-    "couches couches patio";
+    "topHero topHero topHero"
+    "topHero topHero topHero"
+    "currentVproposed styleTile mobileProto"
+    "siteNewIA siteNewIA mobileProto";
 }
 
-#bookcases {
+#topHero {
+    grid-area: topHero;
+    background-image: url("../images/01.bp4vk-top.png");
+}
+#currentVproposed {
+    grid-area: currentVproposed;
+    background-image: url("../images/02.bp4vk-currentVproposed.png");
+} 
+#styleTile {
+    grid-area: styleTile;
+    background-image: url("../images/03.bp4vk-style-tile.png");
+} 
+#mobileProto {
+    grid-area: mobileProto;
+    background-image: url("../images/04.bp4vk-mobile-proto.png");
+}
+#siteNewIA {
+    grid-area: siteNewIA;
+    background-image: url("../images/G05.bp4vk-siteNewIA.png");
+}
+
+/* #bookcases {
     grid-area: bookcases;
     background-image: url("../images/bookcases@2x.png");
   
