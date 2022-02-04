@@ -142,40 +142,101 @@ i {
 
 /**//* MISCELLANEOUS PAGES CSS *//**/
 /* Contact Form CSS */
+
+.gradientTopForm {
+    display: flex;
+    background-image: linear-gradient(180deg, whitesmoke, #d0696969);
+    height: 135vw;
+    width: 100vw;
+    /* z-index: -1; */
+}
 .rectangleContactFormContainer {
     background-color: whitesmoke;
     border: 2px solid;
     /* box-shadow: 5px 10px; */
     position: absolute;
-    margin-left: 13.5%;
+    margin-left: 13.5vw;
     margin-top: 10rem;
     width: 73vw;
-    height: 38rem;
+    height: 72rem;
     /* justify-content: center;
     align-items: center; */
+}
+
+.formHeading {
+    display: flex;
+    margin-top: 4rem;
+    margin-left: 10.4vw;
+    margin-right: 10.4vw;
 }
 
 .form-group-Email {
     /* display: flex;
     align-items: center; */
+    position: relative;
     background-color: lightblue;
-    height: 2.5rem;
+    height: 5.9rem;
     margin-top: 1.5rem;
-    margin-left: 10rem;
+    margin-left: 10.4vw;
+    margin-right: 10.4vw;
     padding: 24px;
     width: 47vw;
     /* color: black; */
 }
+#emailHelp {
+    position: relative;
+    margin-top: -1rem;
+}
 .form-group-MultipleSelect {
+    position: relative;
     background-color: #d0696969;
-    height: 4rem;
-    margin-top: .5rem;
-    margin-left: 10rem;
+    height: 9.96rem;
+    margin-top: 2rem;
+    margin-left: 10.4vw;
+    margin-right: 10.4vw;
     padding: 24px;
     width: 47vw;
 }
 .form-control {
     width: 36rem;
+}
+.form-group-Description {
+    position: relative;
+    /* background-color: #e0de4b69; */
+    background-color: lightyellow;
+    height: 11.9rem;
+    /* margin-top: 0.2rem; */
+    margin-left: 10.4vw;
+    margin-right: 10.4vw;
+    padding: 24px;
+    width: 47vw;
+}
+.uploadAFilequestion {
+    margin-top: .5rem;
+    margin-left: 10.4vw;
+    margin-right: 10.4vw;
+}
+.form-group-InputUpload {
+    /* background-color: rgba(190, 235, 190, 0.829); */
+    position: relative;
+    height: 6rem;
+    width: 22vw;
+    /* margin-top: .5rem; */
+    /* margin-left: 10.4vw; */
+    /* margin-right: 10.4vw; */
+    /* padding: 24px; */
+    /* width: 47vw; */
+}
+.form-control-file {
+    /* background-color: rgba(190, 235, 190, 0.829); */
+    /* position: relative; */
+    /* height: 6rem; */
+    margin-top: .5rem;
+    margin-left: 10.4vw;
+    margin-right: 10.4vw;
+    padding: 24px;
+    /* width: 47vw; */
+    width: 22rem;
 }
 
 
