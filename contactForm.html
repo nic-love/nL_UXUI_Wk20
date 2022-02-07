@@ -40,23 +40,24 @@
                 <p class="flexContainer left">UX/UI Design Portfolio</p>
                 
                 <div class="rhsMenuitems">
-                    <a href="https://google.com"><div class="flexContainer right">About Me</div></a>
+                    <a href="/aboutMe.html"><div class="flexContainer right">About Me</div></a>
 
-                    <a href="https://google.com"><div class="flexContainer right">Contact</div></a>
+                    <a href="/contactForm.html"><div class="flexContainer right">Contact</div></a>
                 <!--borrowed from 17.3-01.C-->
                 </div>
             </div>
         </div>
+
         <div class="rectangleContactFormContainer">
             <h3 class="formHeading">Do you have an idea you'd like to see fruit? I can likely help.<br>
-            Please fill in a contact form below</h3>
+            <small>*Please fill in a contact form</small></h3>
             
             <form>
                 <div class="form-group-Email">
                   <label for="exampleInputEmail1">Email address</label><br>
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                   <br>
-                  <small id="emailHelp" class="form-text text-muted">This address is where you will recieve a response from me shortly</small>
+                  <small id="emailHelp" class="form-text text-muted">This email address is where you will see a response from me</small>
                 </div>
             </form><br>
 
@@ -64,30 +65,30 @@
                 <div class="form-group-MultipleSelect">
                     <label for="exampleFormControlSelect2">Which of my services would you like to utilise?</label>
                     <select multiple class="form-control" id="exampleFormControlSelect2">
-                      <option>UXUI Design</option>
+                      <option>UX/UI Design</option>
                       <option>Product Design</option>
                       <option>Graphic Design</option>
-                      <option> Illustration</option>
+                      <option>Illustration</option>
                     </select>
                 </div>
             </form><br>
 
             <form>
                 <div class="form-group-Description">
-                    <label for="exampleFormControlTextarea1">Example textarea</label><br>
+                    <label for="exampleFormControlTextarea1">What do you have in mind? Please describe it below.</label><br>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
                 </div>
             </form><br>
             
             <form>
                 <div class="form-group-InputUpoad">
-                    <label for="exampleFormControlFile1">Example file input</label>
+                    <label class="uploadAFilequestion"for="exampleFormControlFile1">Got an image in mind? maybe a napkin sketch?<br><small>Anything to help visualise your concept, I'd love to see it. Upload it below.</small></label>
                     <input type="file" class="form-control-file" id="exampleFormControlFile1">
                 </div>
             </form><br>
 
             <form>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary buttonSubmit">Submit</button>
             </form>
 
         </div>
