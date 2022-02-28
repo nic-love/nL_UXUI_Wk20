@@ -131,13 +131,55 @@ i {
     justify-content: center;
     align-items: center; */
 }
-
 .gradientTop {
     display: flex;
     background-image: linear-gradient(180deg, whitesmoke, #d0696969);
     height: 576px;
     width: 100vw;
 }
+
+
+.rectangleBp4VK {
+    background-color: #febc8e;
+    position: absolute;
+    margin-left: 13.5%;
+    /* margin-right: 13.5%; */
+    margin-top: 10rem;
+    width: 73vw;
+    height: 28rem;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.gradientTopBp4VK {
+    display: flex;
+    background-image: linear-gradient(180deg, whitesmoke, #febc8e88);
+    height: 576px;
+    width: 100vw;
+}
+
+
+
+.rectangleTrailTalk {
+    background-color: #3b9fb5;
+    position: absolute;
+    margin-left: 13.5%;
+    /* margin-right: 13.5%; */
+    margin-top: 10rem;
+    width: 73vw;
+    height: 28rem;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.gradientTopTrailTalk {
+    display: flex;
+    background-image: linear-gradient(180deg, whitesmoke, #3B9FB569);
+    height: 576px;
+    width: 100vw;
+}
+
+
 
 
 /**//* MISCELLANEOUS PAGES CSS *//**/
@@ -481,6 +523,7 @@ button:hover {
     /* justify-content: space-between; */
     position: relative;
     margin-top: 1rem;
+    color: black;
 }
 
 .footerLHS {
