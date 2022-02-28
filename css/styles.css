@@ -389,6 +389,9 @@ i {
 .projectTwo {
     background-color: #fff6f0;
 }
+.projectThree {
+    background-color: #f0f9ff;
+}
 
 .cardContentContainer {
     display:flex;
@@ -396,6 +399,7 @@ i {
     position: relative;
     left: 14.5%;
 }
+
 .cardContent {
     /* display: flex;
     flex-direction: row; */
@@ -408,6 +412,7 @@ i {
     height: 168px;
     width: 22.8vw;
     margin: 5px;
+    margin-top: -0.rem;
     /* margin-top: 50px; */
     box-sizing: border-box;
     padding: 10px;
@@ -418,6 +423,9 @@ i {
 }
 .projectTwoBG {
     background-color: #fff6f0;
+}
+.projectThreeBG {
+    background-color: #f0f9ff;
 }
 
 
