@@ -769,6 +769,37 @@ button:hover {
 
 
 
+/* w3schools ACCORDION CSS */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 12px;
+    width: 70vw;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+  
+.active, .accordion:hover {
+    background-color: #ccc; 
+}
+  
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+.accordionText {
+    width: 70vw;
+    margin-left: 15vw;
+}
+
 
 /* CUSTOM MEDIA QUERIES */
 @media only screen and (max-width: 908px) {
