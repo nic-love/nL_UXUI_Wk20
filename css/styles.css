@@ -496,7 +496,7 @@ i {
 .projectDescription {
     display: flex;
     position: relative;
-    left: 14.5%;
+    left: 15vw;
     width: 73vw;
 }
 
@@ -523,17 +523,22 @@ button:hover {
     background-color: #adeb9569;
 }
 
+
+
 .buttonOffsiteGStrail {
-    width: 68vw;
-    margin-left: 16vw;
+    width: 36vw;
+    height: 4.8rem;
+    /* margin-right: 16vw; */
+    margin-left: 32vw;
     /* background-color: #3b9fb5; */
 }
 .buttonTTtext {
     color: white;
 }
 .buttonOffsiteGStrail:hover {
-    /* width: 68vw;
-    margin-left: 16vw; */
+    width: 36vw;
+    margin-left: 32vw;
+    /* margin-right: 16vw; */
     background-color: #3b9fb5;
 }
 .buttonTTtext:hover {
