@@ -179,6 +179,25 @@ i {
     width: 100vw;
 }
 
+.rectangleLike {
+    background-color: #d06969;
+    position: absolute;
+    margin-left: 13.5%;
+    /* margin-right: 13.5%; */
+    margin-top: 10rem;
+    width: 73vw;
+    height: 28rem;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.gradientTopLike {
+    display: flex;
+    background-image: linear-gradient(180deg, whitesmoke, #f1d7db);
+    height: 576px;
+    width: 100vw;
+}
+
 
 
 
@@ -504,7 +523,22 @@ button:hover {
     background-color: #adeb9569;
 }
 
-
+.buttonOffsiteGStrail {
+    width: 68vw;
+    margin-left: 16vw;
+    /* background-color: #3b9fb5; */
+}
+.buttonTTtext {
+    color: white;
+}
+.buttonOffsiteGStrail:hover {
+    /* width: 68vw;
+    margin-left: 16vw; */
+    background-color: #3b9fb5;
+}
+.buttonTTtext:hover {
+    color: black;
+}
 
 
 
@@ -523,7 +557,7 @@ button:hover {
     /* justify-content: space-between; */
     position: relative;
     margin-top: 1rem;
-    color: black;
+    
 }
 
 .footerLHS {
