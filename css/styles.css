@@ -861,3 +861,14 @@ button:hover {
     }
 
 }
+
+.skillsContainer {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 14.5%;
+}
+
+.skillsImg {
+
+}
