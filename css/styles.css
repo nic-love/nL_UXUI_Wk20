@@ -933,16 +933,18 @@ button:hover {
 
 
 /* Offered skills Section CSS */
-.skillsOfferedContainer {
+.skillsOfferedImgContainer {
     display:flex;
     flex-direction: row;
     position: relative;
+    /* margin-left:13.5vw;
+    margin-right:13.5vw; */
 }
 .skillsCardImg {
     position: relative;
     left: 14.5%;
     height: 200px;
-    width: 17.75vw;
+    width: 16.68vw;
     margin: 5px;
     margin-top: 50px;
 }
@@ -971,8 +973,8 @@ button:hover {
     position: relative;
     /* left: 14.5%; */
     height: 5rem;
-    width: 16.451vw;
+    width: 15.64vw;
     margin: 5px;
-    margin-top: -0.3rem;
+    margin-top: -0.36rem;
     padding: 10px;
 }
