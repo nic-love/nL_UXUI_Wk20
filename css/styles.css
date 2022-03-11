@@ -65,6 +65,16 @@ i {
     background-color: black;
     height: 2px;
 }
+
+.midLine {
+    position: relative;
+    margin-top: 0.5rem;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: black;
+    height: 2px;
+}
+
 .headerhalfBottom {
     height: 2rem;
     display: flex;
@@ -157,7 +167,6 @@ i {
     height: 576px;
     width: 100vw;
 }
-
 
 
 .rectangleTrailTalk {
@@ -389,39 +398,15 @@ i {
 
 
 
+/* Projects, Cards and Buttons CSS */
+.myProjectsHeading {
+    text-align: center;
+}
 
-
-
-/* .gradientTopaboutMe { */
-    /* display: flex;
-    background-image: linear-gradient(180deg, whitesmoke, #d0696969);
-    height: 100vh;
-    width: 100vw; */
-    /* z-index: -1; */
-/* } */
-
-/* .rectangleBlackBlur {
-    background-color: #00000070;
-    position: absolute;
-    position: top;
-    margin-top: 5rem;
-    width: 100vw;
-    height: 100vh;
-} */
-
-/* .aboutMeContainer {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    margin-top: 5rem;
-    width: 50vw;
-    height: 36rem;
-    background-color: whitesmoke;
-    z-index: 1;
-} */
-
-
-
+.myProjectsHeading2 {
+    margin-top:-1.36rem;
+    text-align: center;
+}
 
 /* Cards CSS */
 .cardImgContainer {
@@ -442,7 +427,7 @@ i {
     height: 200px;
     width: 22.8vw;
     margin: 5px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 .projectOne {
     background-color: #ededea;
@@ -470,13 +455,16 @@ i {
     /* justify-content: center; */
     background-color: #e7eee7;
     /* border-color: black; */
-    height: 168px;
+    height: 9rem;
     width: 22.8vw;
     margin: 5px;
-    margin-top: -0.rem;
-    /* margin-top: 50px; */
+    margin-top: -0.36rem;
     box-sizing: border-box;
     padding: 10px;
+}
+
+.projectHeading {
+    margin-top: 0.2rem;
 }
 
 .projectOneBG {
@@ -517,6 +505,7 @@ button {
     width: 22.8vw;
     background-color: #76767676;
     margin: 5px;
+    margin-top: -0.36rem;
 }
 button:hover {
     /* background-color: #c4d4c3; */
@@ -932,4 +921,58 @@ button:hover {
         width: 100vw;
     }
 
+}
+
+
+/* embedded Google Slide Decks */
+.TTslideDeck {
+    position: relative;
+    margin-top: 3rem;
+    margin-left: 25vw;
+}
+
+
+/* Offered skills Section CSS */
+.skillsOfferedContainer {
+    display:flex;
+    flex-direction: row;
+    position: relative;
+}
+.skillsCardImg {
+    position: relative;
+    left: 14.5%;
+    height: 200px;
+    width: 17.75vw;
+    margin: 5px;
+    margin-top: 50px;
+}
+
+.skillOne {
+    background-color: #fbf4ff;
+}
+.skillTwo {
+    background-color: #fff6f0;
+}
+.skillThree {
+    background-color: #f0fffa;
+}
+.skillFour {
+    background-color: #fdfdd4;
+}
+
+.skillsOfferedContentContainer{
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    left: 14.5%;
+}
+
+.skillCardContent {
+    position: relative;
+    /* left: 14.5%; */
+    height: 5rem;
+    width: 16.451vw;
+    margin: 5px;
+    margin-top: -0.3rem;
+    padding: 10px;
 }
