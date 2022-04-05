@@ -399,11 +399,11 @@ i {
 
 
 /* Projects, Cards and Buttons CSS */
-.myProjectsHeading {
+#myProjectsHeading {
     text-align: center;
 }
 
-.myProjectsHeading2 {
+#myProjectsHeading2 {
     margin-top:-1.36rem;
     text-align: center;
 }
@@ -946,7 +946,7 @@ button:hover {
     height: 200px;
     width: 16.68vw;
     margin: 5px;
-    margin-top: 50px;
+    /* margin-top: 0.5rem; */
 }
 
 .skillOne {

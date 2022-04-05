@@ -1,0 +1,187 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 400rem;
+    font-family: Helvetica, Arial, sans-serif;
+    /* font-family: 'Gidugu', sans-serif; */
+}
+
+/* Navigation CSS */
+.navTop{
+    justify-content: center;
+    width: 100vw;
+}
+
+.headerhalfTop {
+    height: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.topLine {
+    position: relative;
+    margin-top: 2.5rem;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: whitesmoke;
+    height: 2px;
+}
+
+.midLine {
+    position: relative;
+    margin-top: 0.5rem;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: black;
+    height: 2px;
+}
+
+.headerhalfBottom {
+    height: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 234px;
+    margin-right: 234px;
+    margin-top: 0px;
+}
+
+.left {
+    width: 33vw;
+    justify-content: left;
+}
+.right {
+    justify-content: right;
+}
+
+.rhsMenuitems {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flexContainer {
+    display: flex;
+    align-items: center;
+    height: 2rem;
+    margin: 10px;
+    padding: 15px;
+}
+
+.flexContainerIMP {
+    display: flex;
+    align-items: center;
+    height: 2rem;
+    margin-top: 1.5rem;
+    padding: 15px;
+    color: whitesmoke;
+}
+
+#industrialDesignFolioTitle {
+    color: whitesmoke;
+}
+
+.hamburger {
+    display: hidden;
+    justify-content: right;
+    height: 2rem;
+    width: 2rem;
+}
+
+
+
+
+
+
+/* CTA Section CSS */
+
+.introContainer {
+    display:flex;
+    flex-direction: row;
+    position: absolute;
+    /* margin-top: -26rem; */
+    margin-top: 8rem;
+    /* margin-left: 2rem; */
+}
+.rectangleCAD {
+    background-color: #123456;
+    position: absolute;
+    margin-left: 2rem;
+    /* margin-right: 13.5%; */
+    /* margin-top: -26rem; */
+    /* width: 73vw; */
+    width:64vw;
+    height: 28rem;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.iDSummary {
+    position: relative;
+    left: 2rem;
+    background-color: whitesmoke;
+    height: 28rem;
+    width: 23vw;
+}
+
+
+.gradientTopIndustrialDesign {
+    display: flex;
+    background-image: linear-gradient(180deg, #123456, #24569769);
+    height: 576px;
+    width: 100vw;
+}
+
+
+
+
+
+
+/* CAD Projects CSS */
+
+.projectshowcaseCAD {
+    margin-left: 20vw;
+    /* text-align: center; */
+    /* margin-top: 10rem; */
+}
+
+.categoryGridAreaCAD {
+    background-position: center;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    margin: 5px;
+    /* cursor: pointer; */
+    display: grid;
+    /* align-content: end; */
+}
+
+
+
+#galleryGridCAD {
+    margin: 0px 5%;
+    display: grid;
+    grid-template-rows: 18vw 18vw 18vw 18vw;
+    /* grid-template-rows: 16vw 16vw 16vw; */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+    "fredShed fredShed fredShed"
+    "fredShed fredShed fredShed"
+    "pratoHolder popRivetter popRivetter"
+    "pratoHolder popRivetter popRivetter";
+}
+
+.fredShed {
+    grid-area: fredShed;
+    background-color: rgb(154, 156, 161);
+    /* grid-area: mobileProto;
+    background-image: url("../images/04.bp4vk-mobile-proto.png"); */
+}
+.pratoHolder {
+    grid-area: pratoHolder;
+    background-color: rgb(206, 121, 88);
+}
+.popRivetter {
+    grid-area: popRivetter;
+    background-color: rgb(213, 168, 224);
+}
