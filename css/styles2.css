@@ -1,0 +1,152 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    /* height: 400rem; */
+    font-family: Helvetica, Arial, sans-serif;
+    /* font-family: 'Gidugu', sans-serif; */
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#nameLogo {
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-size: 36px;
+}
+
+a {
+    color: rgba(0, 0, 0, 0.7)
+}
+
+i {
+    color: black;
+}
+
+
+
+/* Hero Section CSS */
+.rectangle {
+    background-color: #D06969;
+    position: absolute;
+    margin-left: 13.5vw;
+    /* margin-right: 13.5%; */
+    margin-top: 10rem;
+    width: 73vw;
+    height: 28rem;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.gradientTop {
+    display: flex;
+    background-image: linear-gradient(180deg, whitesmoke, #d0696969);
+    height: 576px;
+    width: 100vw;
+}
+
+
+
+/* Navigation CSS */
+.navTop{
+    justify-content: center;
+    width: 100vw;
+}
+
+.headerhalfTop {
+    height: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 13.5vw;
+}
+
+#nameLogo {
+    margin-left: 13.5vw;
+    margin-top:0.5rem;
+    padding: 15px;
+}
+
+.rhsIcons {
+    display: flex;
+    justify-content: flex-end;
+    width: 2rem;
+}
+
+#topLine {
+    position: relative;
+    margin-top: 2.5rem;
+    margin-left: 13.5vw;
+    width: 73vw;
+    background-color: black;
+    height: 2px;
+}
+
+.midLine {
+    position: relative;
+    margin-top: 0.5rem;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: black;
+    height: 2px;
+}
+
+.headerhalfBottom {
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 13.5vw;
+    margin-right: 13.5vw;
+    margin-top: 0px;
+}
+
+.left {
+    width: 33vw;
+    justify-content: left;
+}
+.topRight {
+    /* width: 10vw; */
+    justify-content: right;
+}
+.right {
+    width: 10vw;
+    justify-content: right;
+}
+
+.rhsMenuitems {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flexContainer {
+    display: flex;
+    height: 2rem;
+    margin: 10px;
+    padding: 15px;
+}
+
+.flexContainerIMP {
+    display: flex;
+    align-items: flex-start;
+    height: 2rem;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    color: black;
+}
+
+.hamburger {
+    display: hidden;
+    justify-content: right;
+    height: 2rem;
+    width: 2rem;
+}
+
+/* Projects CSS */
+
+#myProjectsHeading {
+    align-items: center;
+}

@@ -101,17 +101,18 @@ body, html {
     flex-direction: row;
     position: absolute;
     /* margin-top: -26rem; */
-    margin-top: 8rem;
+    margin-top: -28rem;
+    width: 64vw;
     /* margin-left: 2rem; */
 }
-.rectangleCAD {
+#rectangleCAD {
     background-color: #123456;
     position: absolute;
-    margin-left: 2rem;
+    margin-left: 13.5vw;
     /* margin-right: 13.5%; */
-    /* margin-top: -26rem; */
+    margin-top: 10rem;
     /* width: 73vw; */
-    width:64vw;
+    width: 73vw;
     height: 28rem;
     /* display: flex;
     justify-content: center;
@@ -126,7 +127,7 @@ body, html {
 }
 
 
-.gradientTopIndustrialDesign {
+.gradientTopIndDes {
     display: flex;
     background-image: linear-gradient(180deg, #123456, #24569769);
     height: 576px;
