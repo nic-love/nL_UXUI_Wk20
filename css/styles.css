@@ -863,8 +863,56 @@ button:hover {
 
 }
 
+<<<<<<< Updated upstream
 .skillsContainer {
     display: flex;
+=======
+
+/* embedded Google Slide Decks */
+.TTslideDeck {
+    position: relative;
+    margin-top: 3rem;
+    margin-left: 25vw;
+}
+
+
+/* Offered skills Section CSS */
+.skillsOfferedImgContainer {
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    /* margin-left:13.5vw;
+    margin-right:13.5vw; */
+}
+.skillsCardImg {
+    position: relative;
+    left: 14.5%;
+    height: 200px;
+    width: 16.68vw;
+    margin: 5px;
+    /* margin-top: 0.5rem; */
+}
+
+.skillbg {
+    background-color: #c0c0c0;
+}
+
+.rectangle2 {
+    background-color: #e8dc8c;
+    position: absolute;
+    margin-left: 13.5%;
+    /* margin-right: 13.5%; */
+    margin-top: 8rem;
+    width: 73vw;
+    height: 47rem;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.skillsOfferedContentContainer{
+    display:flex;
+>>>>>>> Stashed changes
     flex-direction: row;
     position: relative;
     left: 14.5%;
