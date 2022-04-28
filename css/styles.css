@@ -863,11 +863,6 @@ button:hover {
 
 }
 
-<<<<<<< Updated upstream
-.skillsContainer {
-    display: flex;
-=======
-
 /* embedded Google Slide Decks */
 .TTslideDeck {
     position: relative;
@@ -898,22 +893,32 @@ button:hover {
 }
 
 .rectangle2 {
-    background-color: #e8dc8c;
+    background-color: #eae1ab;
     position: absolute;
     margin-left: 13.5%;
     /* margin-right: 13.5%; */
-    margin-top: 8rem;
+    margin-top: 4.8rem;
     width: 73vw;
-    height: 47rem;
+    height: 54rem;
     /* display: flex;
     justify-content: center;
     align-items: center; */
 }
 
-.skillsOfferedContentContainer{
-    display:flex;
->>>>>>> Stashed changes
-    flex-direction: row;
-    position: relative;
-    left: 14.5%;
+#myProjectsHeading {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -2rem;  
+
+}
+
+#myProjectsHeadingLetters {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem; 
+    margin-top: -2rem;
 }
