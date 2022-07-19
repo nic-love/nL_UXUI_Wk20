@@ -738,10 +738,19 @@ iframe {
     position: relative;
     left: 50%;
     right: 50%;
-    /* margin-top: 20rem; */
-    margin-bottom: -20rem;
+    margin-top: 20rem;
+    /* margin-bottom: -20rem; */
     transform: translate(-50%,-50%);
 }
+
+/* .indexGoog {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-top: 20rem;
+    /* margin-bottom: -20rem; */
+    /* transform: translate(-50%,-50%);
+} */
 
 
 
